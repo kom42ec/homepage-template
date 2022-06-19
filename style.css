@@ -239,5 +239,10 @@ p {
 .step {
   margin-bottom: 4.8rem;
 }
+.step-number {
+  font-size: 9.6rem;
+  font-weight: 800;
+  color: var(--grayColor100);
+}
 
 /* WHO IT IS FOR */
