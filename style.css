@@ -60,7 +60,7 @@ h1,
 h2,
 h3 {
   font-weight: 700;
-  color: var(--grayColor900);
+  color: var(--grayColor700);
 }
 
 h1 {
@@ -84,13 +84,13 @@ h3 {
   font-size: 2.4rem;
   line-height: 1.6;
   font-weight: 400;
-  color: var(--grayColor700);
+  color: var(--grayColor500);
   margin-bottom: 4.8rem;
 }
 p {
   font-size: 1.8rem;
   line-height: 1.6;
-  color: var(--grayColor700);
+  color: var(--grayColor500);
   margin-bottom: 2.4rem;
 }
 /*************************  HEADER STYLING  *******************************/
@@ -252,6 +252,7 @@ p {
   width: 6.4rem;
   height: 6.4rem;
   margin-bottom: 1.6rem;
+  stroke: var(--grayColor500);
 }
 .avatar h3 {
   margin-bottom: 0.4rem;
@@ -265,4 +266,7 @@ p {
 .who {
   padding-top: 6.4rem;
   padding-bottom: 6.4rem;
+  background-image: url("./gradient.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
