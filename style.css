@@ -25,7 +25,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: var(--grayishColor);
 }
 
 .container {
@@ -34,6 +33,20 @@ body {
   padding: 0 3.2rem;
   margin: 0 auto;
 }
+
+.py-small {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.py-medium {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.py-large {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
 .grid--2-cols {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
