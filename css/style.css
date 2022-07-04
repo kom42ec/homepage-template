@@ -1,0 +1,53 @@
+:root {
+  /* COLORS */
+
+  /*Gray colors*/
+  --grayColor500: #6b7280;
+  --grayColor900: #111827;
+
+  /* Blue colors */
+  --blueColor50: #eff6ff;
+  --blueColor100: #dbeafe;
+  --blueColor200: #bfdbfe;
+  --blueColor300: #93c5fd;
+  --blueColor400: #60a5fa;
+  --blueColor500: #3b82f6;
+  --blueColor600: #2563eb;
+  --blueColor700: #1d4ed8;
+  --blueColor800: #1e40af;
+  --blueColor900: #1e3a8a;
+  /* FONTS */
+}
+
+/***************************
+HEADER STYLING
+****************************/
+.main-header {
+  padding: 2.4rem 0;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.logo-icon {
+  height: 5rem;
+  width: 5rem;
+  color: var(--blueColor600);
+}
+.nav-link:link,
+.nav-link:visited {
+  color: var(--grayColor500);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: var(--grayColor900);
+}
