@@ -64,8 +64,8 @@ body {
   color: var(--grayColor500);
 }
 .container {
-  width: 120rem;
-  padding: 0 3.6rem;
+  max-width: 120rem;
+  /* padding: 0 3.6rem; */
   margin: 0 auto;
 }
 
@@ -82,7 +82,7 @@ h4 {
 h1 {
   font-size: 7.2rem;
   line-height: 1;
-  margin-bottom: 3.6rem;
+  margin-bottom: 3rem;
 }
 h2 {
   font-size: 6rem;
@@ -123,9 +123,14 @@ a {
   text-decoration: none;
   font-size: 1.6rem;
   font-weight: 500;
-  padding: 1.4rem 2.8rem;
+  padding: 2rem 3rem;
   border-radius: 10px;
   cursor: pointer;
+}
+/* Navigation Button */
+
+.btn.btn-nav {
+  padding: 1rem 2rem;
 }
 /* Primary Button */
 .btn-primary:link,
@@ -142,8 +147,12 @@ a {
 /* Secondary Button */
 .btn-secondary:link,
 .btn-secondary:visited {
+  color: var(--blueColor600);
+  background-color: var(--blueColor100);
+  margin-right: 1.4rem;
 }
 
 .btn-secondary:hover,
 .btn-secondary:active {
+  background-color: var(--blueColor200);
 }
