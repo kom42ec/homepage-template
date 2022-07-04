@@ -62,15 +62,30 @@ HERO STYLING
   align-items: center;
   text-align: center;
   height: 65vh;
-  border: 1px solid #fff;
+  border: none;
   border-radius: 20px;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   margin-top: 2rem;
+  background-image: linear-gradient(
+      rgba(37, 99, 235, 0.8),
+      rgba(37, 99, 235, 0.4)
+    ),
+    url(../img/business.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* color: rgb(37, 99, 235); */
 }
 
 .hero-content {
   /* border: 1px solid red; */
-  max-width: 100rem;
+  max-width: 80rem;
+}
+.hero h1 {
+  color: var(--blueColor50);
+}
+.hero p.subtitle {
+  color: var(--blueColor100);
 }
 
 /****************************
