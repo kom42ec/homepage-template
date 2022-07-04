@@ -55,3 +55,17 @@ HEADER STYLING
 /***************************
 HERO STYLING
 ****************************/
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60vh;
+  border: 1px solid var(--blueColor700);
+  border-radius: 20px;
+}
+
+.hero-content {
+  border: 1px solid red;
+  max-width: 100rem;
+}
