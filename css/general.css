@@ -118,12 +118,27 @@ a {
   text-decoration: none;
   font-size: 1.6rem;
   font-weight: 500;
-  color: var(--blueColor50);
-  background-color: var(--blueColor600);
   padding: 1.4rem 2.8rem;
   border-radius: 10px;
+  cursor: pointer;
+}
+/* Primary Button */
+.btn-primary:link,
+.btn-primary:visited {
+  color: var(--blueColor50);
+  background-color: var(--blueColor600);
+}
+.btn-primary:hover,
+.btn-primary:active {
+  color: var(--blueColor100);
+  background-color: var(--blueColor700);
 }
 
-.btn:hover,
-.btn:active {
+/* Secondary Button */
+.btn-secondary:link,
+.btn-secondary:visited {
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
 }
