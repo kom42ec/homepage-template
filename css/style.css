@@ -102,6 +102,9 @@ FEATURED COMPANY LOGOS SECTION STYLING
   height: 4rem;
   color: var(--grayColor300);
 }
+.company-logo:hover {
+  color: var(--blueColor600);
+}
 .companies {
   display: flex;
   justify-content: space-around;
