@@ -25,6 +25,13 @@ HEADER STYLING
 ****************************/
 .main-header {
   padding: 2rem 0;
+  width: 100%;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+}
+.top {
+  /* background-color: var(--blueColor50); */
 }
 .main-nav {
   display: flex;
@@ -65,7 +72,8 @@ HERO STYLING
   border: none;
   border-radius: 20px;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-  margin-top: 2rem;
+  /* margin-top: 10rem; */
+  margin-top: 3rem;
   background-image: linear-gradient(
       rgba(37, 99, 235, 0.8),
       rgba(37, 99, 235, 0.4)
@@ -109,4 +117,11 @@ FEATURED COMPANY LOGOS SECTION STYLING
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+/*****************************
+HOW TO SECTION STYLING
+******************************/
+.steps {
+  /* height: 100vh; */
 }
