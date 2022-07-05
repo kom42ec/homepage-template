@@ -103,6 +103,7 @@ FEATURED COMPANY LOGOS SECTION STYLING
   margin-top: 3rem;
   padding: 3rem 0;
   height: 20vh;
+  text-align: center;
   /* border: 1px solid blue; */
 }
 .company-logo {
@@ -124,4 +125,41 @@ HOW TO SECTION STYLING
 ******************************/
 .steps {
   /* height: 100vh; */
+}
+.steps-headline {
+  text-align: center;
+  padding: 8rem 0;
+  max-width: 60rem;
+}
+.img-step {
+  width: 80%;
+}
+.number {
+  display: inline-block;
+  font-size: 10rem;
+  font-weight: 800;
+  color: var(--blueColor600);
+  margin-bottom: 1.4rem;
+}
+.step-text {
+  width: 80%;
+}
+.step-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.step-images::before {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: var(--blueColor100);
+  z-index: -2;
 }
