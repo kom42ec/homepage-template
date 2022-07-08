@@ -176,4 +176,5 @@ HOW TO SECTION STYLING
   border-bottom: 3px solid var(--blueColor600);
   position: absolute;
   color: var(--blueColor600);
+  transform: skewX(30deg);
 }
