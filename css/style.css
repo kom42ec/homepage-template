@@ -47,17 +47,18 @@ HEADER STYLING
 .logo-icon {
   height: 4rem;
   width: 4rem;
-  color: var(--blueColor600);
+  color: var(--blueColor50);
 }
 .nav-link:link,
 .nav-link:visited {
-  color: var(--grayColor500);
+  color: var(--blueColor50);
   font-size: 1.6rem;
   font-weight: 500;
 }
 .nav-link:hover,
 .nav-link:active {
-  color: var(--grayColor900);
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--blueColor50);
 }
 
 /***************************
@@ -71,18 +72,18 @@ HERO STYLING
   height: 65vh;
   border: none;
   border-radius: 20px;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075); */
   /* margin-top: 10rem; */
   margin-top: 3rem;
   margin-bottom: 3rem;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       rgba(37, 99, 235, 0.8),
       rgba(37, 99, 235, 0.4)
     ),
     url(../img/business.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   /* color: rgb(37, 99, 235); */
 }
 

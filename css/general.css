@@ -62,14 +62,16 @@ body {
   line-height: 1;
   font-weight: 400;
   color: var(--grayColor500);
-  padding: 0 3rem;
+  /* padding: 0 3rem; */
 }
 .container {
   max-width: 140rem;
   /* padding: 0 3.6rem; */
   margin: 0 auto;
 }
-
+.background {
+  background-color: var(--blueColor600);
+}
 /* Margins */
 
 .mrg-btm {
@@ -163,8 +165,8 @@ a {
 /* Primary Button */
 .btn-primary:link,
 .btn-primary:visited {
-  color: var(--blueColor50);
-  background-color: var(--blueColor600);
+  color: var(--grayColor900);
+  background-color: var(--blueColor50);
   /* border: 1px solid var(--blueColor50); */
 }
 .btn-primary:hover,
