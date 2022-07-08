@@ -167,26 +167,23 @@ a {
 .btn-primary:visited {
   color: var(--grayColor900);
   background-color: var(--blueColor50);
-  /* border: 1px solid var(--blueColor50); */
+  border: 1px solid var(--blueColor50);
 }
 .btn-primary:hover,
 .btn-primary:active {
-  color: var(--blueColor100);
-  background-color: var(--blueColor700);
-  /* border: 1px solid var(--blueColor700); */
+  transform: translateY(5px);
 }
 
 /* Secondary Button */
 .btn-secondary:link,
 .btn-secondary:visited {
-  color: var(--blueColor600);
-  background-color: var(--blueColor100);
-  /* border: 1px solid var(--blueColor600); */
+  color: var(--blueColor50);
+  background-color: var(--blueColor600);
+  border: 1px solid var(--blueColor50);
   margin-right: 2rem;
 }
 
 .btn-secondary:hover,
 .btn-secondary:active {
-  background-color: var(--blueColor200);
-  /* border: 1px solid var(--blueColor200); */
+  transform: translateY(5px);
 }
