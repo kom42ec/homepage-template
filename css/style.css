@@ -164,3 +164,16 @@ HOW TO SECTION STYLING
   background-color: var(--blueColor100);
   z-index: -2;
 }
+
+.step-text h3 {
+  position: relative;
+}
+.step-text h3::after {
+  content: "";
+  display: block;
+  width: 10%;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--blueColor600);
+  position: absolute;
+  color: var(--blueColor600);
+}
